@@ -1,0 +1,62 @@
+/* COntainer */
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Texts */
+.text-light {
+  color: hsl(0, 0%, 100%);
+}
+
+.text-secondary {
+  color: var(--GrayishBlue);
+}
+
+.text-primary {
+  color: var(--VeryDarkCyan);
+}
+
+/* Backgrounds */
+.bg-light {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.bg-secondary {
+  background-color: var(--GrayishBlue);
+}
+
+.bg-primary {
+  background-color: var(--VeryDarkCyan);
+}
+
+/* buttons */
+
+.btn {
+  transition: 0.5s;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 16px;
+  background-color: var(--GrayishBlue);
+  border: none;
+  cursor: pointer;
+  box-shadow: -2px 3px 7px 2px hsl(208, 11%, 55%, 0.2);
+}
+
+.btn-primary {
+  background-color: var(--VeryDarkCyan);
+}
+
+.btn-light {
+  background-color: hsl(0, 0%, 100%);
+  color: var(--VeryDarkCyan);
+}
+.btn-secondary {
+  background-color: var(--GrayishBlue);
+}
